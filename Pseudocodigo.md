@@ -9,9 +9,9 @@ Oliver Josué Padilla Quintanilla    29 de septiembre de 2020
   - Número A
   - Número B
 - Output:
-  - Para A:
+  1. Para A:
     Si A>B, devolver A
-  - Si no devolver B
+  2. Si no devolver B
   
 2. **Determinar el mayor de tres números**
 - Descripción: Se formara el arreglo M con los 3 números y se determinará un número pequeño (-999999 denotado mayor.
@@ -22,9 +22,9 @@ Oliver Josué Padilla Quintanilla    29 de septiembre de 2020
   - Arreglo de tres números (M)
   - Mayor = -999999
 - Output:
-  - Sea i un elemento de M, de 1 a 3:
-    Si M[i]>mayor, el elemento i será asignado como el nuevo mayor.
-  - Devolver Mayor.
+  1. Sea i un elemento de M, de 1 a 3:
+     Si M[i]>mayor, el elemento i será asignado como el nuevo mayor.
+  2. Devolver Mayor.
       
 3. **Determinar si un número es o no primo**
 - Descripción: Se formará un arreglo de tamaño (raíz de n)-1 que tendrá los números ordenados de 2 a raíz de n, siendo n el número a determinar como primo.
@@ -34,9 +34,9 @@ Oliver Josué Padilla Quintanilla    29 de septiembre de 2020
   - n= número a determinar
   - Arreglo A de tamaño (raíz de n)-1
 - Output:
-  - Sea i un elemento de A, desde 1 a (raíz de n)-1:
-    Sí n/A[i] = número entero, devolver "No es primo"
-  - Si no devolver "Es primo"
+  1. Sea i un elemento de A, desde 1 a (raíz de n)-1:
+      Sí n/A[i] = número entero, devolver "No es primo"
+  2. Si no devolver "Es primo"
   
 4. **Determinar si dos cadenas son palíndromas**  
 Descripción: Tener dos cadenas A y B. Comparar que la longitud de A sea igual que B, de lo contrario devolver "No son palíndromas".
@@ -46,11 +46,11 @@ Descripción: Tener dos cadenas A y B. Comparar que la longitud de A sea igual q
   - Cadena A
   - Cadena B
 - Output:
-  - Si longitud de A es diferente a longitud de B, devolver "No son palíndromas".
-  - Si no:
-   - Sea i un elemento en A de 1 a n, y j un elemento en B de 1 a n:
-      Si para todo A[i] = B[j], devolver "Son palíndromas".
-   - Si no devolver "No son palíndromas"
+  1. Si longitud de A es diferente a longitud de B, devolver "No son palíndromas".
+  2. Si no:
+   3. Sea i un elemento en A de 1 a n, y j un elemento en B de 1 a n:
+        Si para todo A[i] = B[j], devolver "Son palíndromas".
+   4. Si no devolver "No son palíndromas"
 5. **Determinar si “ant” es una subcadena de “Se han establecido antecedentes desde el sigo XIX”**
 - Descripción: Crear dos arreglos A y B cuyos elementos serán cada letra de sus respectivas oraciones (contando espacios).
                Comparar si todos los elementos de A están en posiciones consecutivas de B. De cumplirse se devolverá "Es subcadena".
@@ -59,6 +59,6 @@ Descripción: Tener dos cadenas A y B. Comparar que la longitud de A sea igual q
   - Arreglo A (posible subcadena)
   - Arreglo B (cadena)
 - Output:
-  - Sea i un elemento de B de 1 a n,
-    Si B[i,i+1,i+2] = A[1,2,3], devolver "Es subcadena"
-  - Si no devolver "No es subcadena
+  1. Sea i un elemento de B de 1 a n,
+     Si B[i,i+1,i+2] = A[1,2,3], devolver "Es subcadena"
+  2. Si no devolver "No es subcadena
