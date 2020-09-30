@@ -10,7 +10,7 @@ Oliver Josué Padilla Quintanilla    29 de septiembre de 2020
   - Número B
 - Output:
   1. Para A:
-    -Si A>B, devolver A
+    - Si A>B, devolver A
   2. Si no devolver B
   
 2. **Determinar el mayor de tres números**
@@ -23,7 +23,7 @@ Oliver Josué Padilla Quintanilla    29 de septiembre de 2020
   - Mayor = -999999
 - Output:
   1. Sea i un elemento de M, de 1 a 3:
-     -Si M[i]>mayor, el elemento i será asignado como el nuevo mayor.
+    - Si M[i]>mayor, el elemento i será asignado como el nuevo mayor.
   2. Devolver Mayor.
       
 3. **Determinar si un número es o no primo**
@@ -35,7 +35,7 @@ Oliver Josué Padilla Quintanilla    29 de septiembre de 2020
   - Arreglo A de tamaño (raíz de n)-1
 - Output:
   1. Sea i un elemento de A, desde 1 a (raíz de n)-1:
-      -Sí n/A[i] = número entero, devolver "No es primo"
+    - Sí n/A[i] = número entero, devolver "No es primo"
   2. Si no devolver "Es primo"
   
 4. **Determinar si dos cadenas son palíndromas**  
@@ -48,9 +48,9 @@ Descripción: Tener dos cadenas A y B. Comparar que la longitud de A sea igual q
 - Output:
   1. Si longitud de A es diferente a longitud de B, devolver "No son palíndromas".
   2. Si no:
-   3. Sea i un elemento en A de 1 a n, y j un elemento en B de 1 a n:
-        -Si para todo A[i] = B[j], devolver "Son palíndromas".
-   4. Si no devolver "No son palíndromas"
+  3. Sea i un elemento en A de 1 a n, y j un elemento en B de 1 a n:
+    - Si para todo A[i] = B[j], devolver "Son palíndromas".
+  4. Si no devolver "No son palíndromas"
 5. **Determinar si “ant” es una subcadena de “Se han establecido antecedentes desde el sigo XIX”**
 - Descripción: Crear dos arreglos A y B cuyos elementos serán cada letra de sus respectivas oraciones (contando espacios).
                Comparar si todos los elementos de A están en posiciones consecutivas de B. De cumplirse se devolverá "Es subcadena".
@@ -60,5 +60,5 @@ Descripción: Tener dos cadenas A y B. Comparar que la longitud de A sea igual q
   - Arreglo B (cadena)
 - Output:
   1. Sea i un elemento de B de 1 a n,
-     -Si B[i,i+1,i+2] = A[1,2,3], devolver "Es subcadena"
+    - Si B[i,i+1,i+2] = A[1,2,3], devolver "Es subcadena"
   2. Si no devolver "No es subcadena
