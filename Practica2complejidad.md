@@ -102,7 +102,7 @@ return false
 
 
 ##### Complejidad
-*O*(
+*O*(n) Ω(1)
 
 ### Algoritmo 3
 ```
@@ -121,16 +121,13 @@ return true
 ```
 
 ##### Resultados
-Escribe en la siguiente sección, para el conjunto de entradas indicado, el resultado que daría el algoritmo.
 
 |valores_x|valores_y|resultado|
 |-|-|-|
-|[1, 2, 3]|[1, 2, 3, 4, 5]|**Tu respuesta aquí**|
-|[2, 4]|[7, 5, 2, 8, 3]|**Tu respuesta aquí**|
-|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**Tu respuesta aquí**|
+|[1, 2, 3]|[1, 2, 3, 4, 5]|**false**|
+|[2, 4]|[7, 5, 2, 8, 3]|**true**|
+|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**false**|
 
 
 ##### Complejidad
-Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
-
-**Tu respuesta aquí**
+*O*(n) Ω(1)
