@@ -130,4 +130,4 @@ return true
 
 
 ##### Complejidad
-*O*(n) Ω(1)
+*O*(n2) Ω(1)
