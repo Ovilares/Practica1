@@ -77,6 +77,7 @@ return resultado
 ##### Complejidad
 **O**(n)
 Ω(1)
+Θ(n)
 
 ### Algoritmo 2
 ```
@@ -96,13 +97,15 @@ return false
 
 |x|valores|resultado|
 |-|-|-|
-|4|[1, 2, 4, 7, 9]|**false**|
-|9|[1, 3, 5, 6, 7]|**true**|
+|4|[1, 2, 4, 7, 9]|**true**|
+|9|[1, 3, 5, 6, 7]|**false**|
 |3|[5, 6, 7, 8, 9, 10]|**false**|
 
 
 ##### Complejidad
-*O*(n) Ω(1)
+*O*(n) 
+Ω(1) 
+Θ(n)
 
 ### Algoritmo 3
 ```
@@ -124,10 +127,12 @@ return true
 
 |valores_x|valores_y|resultado|
 |-|-|-|
-|[1, 2, 3]|[1, 2, 3, 4, 5]|**false**|
-|[2, 4]|[7, 5, 2, 8, 3]|**true**|
-|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**false**|
+|[1, 2, 3]|[1, 2, 3, 4, 5]|**true**|
+|[2, 4]|[7, 5, 2, 8, 3]|**false**|
+|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**true**|
 
 
 ##### Complejidad
-*O*(n2) Ω(1)
+*O*(n2) 
+Ω(1) 
+Θ(n2)
